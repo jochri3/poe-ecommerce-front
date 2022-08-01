@@ -1,0 +1,93 @@
+{
+  "products": [{
+    "id": 1,
+    "name": "Impala",
+    "manufacturer": "Chevrolet",
+    "category_id": 1,
+    "image_url": "http://dummyimage.com/181x100.png/ff4444/ffffff",
+    "price": 2737,
+    "stock_quantity": 1849,
+    "description": "Strain of unsp musc/fasc/tend at forarm lv, unsp arm, init"
+  }, {
+    "id": 2,
+    "name": "Grand Caravan",
+    "manufacturer": "Dodge",
+    "category_id": 2,
+    "image_url": "http://dummyimage.com/225x100.png/ff4444/ffffff",
+    "price": 2654,
+    "stock_quantity": 380,
+    "description": "Injury of unsp nerve at hip and thigh level, right leg"
+  }, {
+    "id": 3,
+    "name": "Soul",
+    "manufacturer": "Kia",
+    "category_id": 3,
+    "image_url": "http://dummyimage.com/214x100.png/5fa2dd/ffffff",
+    "price": 1714,
+    "stock_quantity": 2998,
+    "description": "Juvenile arthritis, unspecified, hand"
+  }, {
+    "id": 4,
+    "name": "Cougar",
+    "manufacturer": "Mercury",
+    "category_id": 4,
+    "image_url": "http://dummyimage.com/124x100.png/ff4444/ffffff",
+    "price": 2741,
+    "stock_quantity": 1487,
+    "description": "Bent bone of unsp radius, subs for clos fx w routn heal"
+  }, {
+    "id": 5,
+    "name": "MX-3",
+    "manufacturer": "Mazda",
+    "category_id": 5,
+    "image_url": "http://dummyimage.com/234x100.png/cc0000/ffffff",
+    "price": 3009,
+    "stock_quantity": 39,
+    "description": "Hurler-Scheie syndrome"
+  }, {
+    "id": 6,
+    "name": "C-Class",
+    "manufacturer": "Mercedes-Benz",
+    "category_id": 6,
+    "image_url": "http://dummyimage.com/150x100.png/dddddd/000000",
+    "price": 452,
+    "stock_quantity": 1775,
+    "description": "Eczematous dermatitis of left eye, unspecified eyelid"
+  }, {
+    "id": 7,
+    "name": "600SEL",
+    "manufacturer": "Mercedes-Benz",
+    "category_id": 7,
+    "image_url": "http://dummyimage.com/209x100.png/dddddd/000000",
+    "price": 1325,
+    "stock_quantity": 371,
+    "description": "Maternal care for other malpresentation of fetus, fetus 5"
+  }, {
+    "id": 8,
+    "name": "Accord",
+    "manufacturer": "Honda",
+    "category_id": 8,
+    "image_url": "http://dummyimage.com/177x100.png/cc0000/ffffff",
+    "price": 2367,
+    "stock_quantity": 1455,
+    "description": "Abscess of tendon sheath, right forearm"
+  }, {
+    "id": 9,
+    "name": "911",
+    "manufacturer": "Porsche",
+    "category_id": 9,
+    "image_url": "http://dummyimage.com/100x100.png/ff4444/ffffff",
+    "price": 1047,
+    "stock_quantity": 1016,
+    "description": "Laceration with foreign body of left elbow"
+  }, {
+    "id": 10,
+    "name": "Focus",
+    "manufacturer": "Ford",
+    "category_id": 10,
+    "image_url": "http://dummyimage.com/242x100.png/dddddd/000000",
+    "price": 58,
+    "stock_quantity": 1701,
+    "description": "Opioid dependence with other opioid-induced disorder"
+  }]
+}
