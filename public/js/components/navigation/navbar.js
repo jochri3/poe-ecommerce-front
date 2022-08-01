@@ -1,4 +1,6 @@
-export function Navbar() {
+import { CategoryDropdownList } from "./category-dropdown-list.js";
+
+export function Navbar(categories) {
   return `<nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">#Ecomme</a>
@@ -12,9 +14,7 @@ export function Navbar() {
               Categories
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              ${CategoryDropdownList(categories)}
             </ul>
           </li>
         </ul>
