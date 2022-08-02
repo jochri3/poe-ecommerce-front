@@ -1,14 +1,19 @@
-import { ProductItem } from "./product-item.js";
+import { ProductItem } from './product-item.js';
 
 export class ProductList {
-  constructor(products) {
-    this.products = products;
-  }
+    constructor(products) {
+        this.products = products;
+    }
 
-  render() {
-    return this.products.reduce(
-      (html, product) => html + ProductItem(product),
-      ""
-    );
-  }
+    set product(products) {
+        this.products = products;
+        this.render();
+    }
+
+    render() {
+        return this.products.reduce(
+            (html, product) => html + ProductItem(product),
+            ''
+        );
+    }
 }
