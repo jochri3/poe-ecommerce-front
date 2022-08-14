@@ -1,5 +1,10 @@
-export function ProductItem({ imageUrl, name, price, id }) {
-    return `<div class="card" style="width: 18rem;">
+export function ProductItem({
+  imageUrl,
+  name,
+  price,
+  id,
+}) {
+  return `<div class="card" style="width: 18rem;">
   <div class="card-image-box"><img src="${imageUrl}" class="card-img-top" alt="..."></div>
   <div class="card-body">
     <h5 class="card-title">${name}</h5>

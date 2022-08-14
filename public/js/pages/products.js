@@ -1,4 +1,8 @@
-import { fetchProducts, search } from '../services/products.js';
+import {
+    fetchProducts,
+    ProductsServices,
+    search,
+} from '../services/products.js';
 import { ProductList } from '../components/products-list/product-list.js';
 import { fetchCategories } from '../services/categories.js';
 import { Navbar } from '../components/navigation/navbar.js';
@@ -15,6 +19,7 @@ class Products {
         this.$searchInput = null;
         this.$categoryMenu = null;
         this.productsListComponent = null;
+        this.productsService = new ProductsServices();
     }
 
     attachEventListeners() {
@@ -41,19 +46,19 @@ class Products {
     }
 
     getProducts() {
-        return fetchProducts(this.selectedCategory).then((data) => {
+        return this.selectedCategory.then((data) => {
             this.products = data;
         });
     }
 
     getCategories() {
-        return fetchCategories().then((data) => {
+        return this.productsService.fetchCategories().then((data) => {
             this.categories = data;
         });
     }
 
     searchProduct(searchTerm) {
-        return search(searchTerm).then((data) => {
+        return this.productsService.search(searchTerm).then((data) => {
             this.products = data;
         });
     }
